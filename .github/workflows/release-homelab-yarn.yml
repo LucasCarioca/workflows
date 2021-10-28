@@ -79,7 +79,7 @@ jobs:
         uses: azure/k8s-set-context@v1
         with:
           method: kubeconfig
-          kubeconfig: ${{ secrets.HOME_LAB_KUBE_CONFIG }}
+          kubeconfig: ${{ secrets.kube_config }}
       - name: Deploy Application
         run: kubectl apply -f homelab.yaml
       - name: Set Image
