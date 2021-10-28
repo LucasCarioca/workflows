@@ -20,13 +20,10 @@ on:
     secrets:
       kube_config:
         required: true
-        type: string
       username:
         required: true
-        type: string
       password:
         required: true
-        type: string
 jobs:
  release:
     runs-on: ubuntu-latest
