@@ -1,7 +1,7 @@
 name: Release Homelab
 on:
   workflow_call:
-    inputs:
+    # inputs:
       # registry:
       #   required: true
       #   type: string
