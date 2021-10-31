@@ -17,26 +17,26 @@ on:
       # namespace:
       #   required: true
       #   type: string
-    secrets:
+    # secrets:
       # kube_config:
       #   required: true
       # username:
       #   required: true
       # password:
       #   required: true
-      token:
-        required: true
 jobs:
  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Create a release
-        uses: go-semantic-release/action@v1
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
         with:
-          github-token: ${{ secrets.token }}
-          changelog-file: true
-          update-file: VERSION
+          node-version: 14.x
+      - run: yarn install
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Get Version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@master
