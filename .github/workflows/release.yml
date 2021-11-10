@@ -1,7 +1,17 @@
 name: Release
 on:
-  push:
-    branches: [main]
+  workflow_call:
 jobs:
  release:
-    uses: LucasCarioca/workflows/.github/workflows/release.yml@main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - run: yarn install
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: yarn release
