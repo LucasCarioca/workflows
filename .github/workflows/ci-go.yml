@@ -1,6 +1,11 @@
 name: CI
 on:
   workflow_call:
+    inputs:
+      go-version: 
+        required: false
+        type: number
+        default: 1.16
 jobs:
   ci:
     runs-on: ubuntu-latest
