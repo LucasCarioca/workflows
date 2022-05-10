@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/LucasCarioca/workflows/compare/v0.3.2...v0.4.0) (2022-05-10)
+
+
+### Features
+
+* use new action for lint ([d6ebffd](https://github.com/LucasCarioca/workflows/commit/d6ebffd149d560c6882c4691317ff47dfb6b00c6))
+
 ## [0.3.2](https://github.com/LucasCarioca/workflows/compare/v0.3.1...v0.3.2) (2022-05-10)
 
 
