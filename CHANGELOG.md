@@ -1,3 +1,10 @@
+## [0.4.1](https://github.com/LucasCarioca/workflows/compare/v0.4.0...v0.4.1) (2022-05-10)
+
+
+### Bug Fixes
+
+* use latest version of action ([ac75992](https://github.com/LucasCarioca/workflows/commit/ac75992e96088787d073249b196c8ecfbd401c31))
+
 # [0.4.0](https://github.com/LucasCarioca/workflows/compare/v0.3.2...v0.4.0) (2022-05-10)
 
 
