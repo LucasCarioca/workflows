@@ -21,7 +21,9 @@ jobs:
       - name: Go lint
         uses: golangci/golangci-lint-action@v3
         with:
-          version: latest
+          version: v1.45
+          skip-pkg-cache: true
+          skip-go-installation: true
       - name: Go fmt check
         run: make fmt-check
       - name: Go test
