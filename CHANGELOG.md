@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/LucasCarioca/workflows/compare/v0.3.1...v0.3.2) (2022-05-10)
+
+
+### Bug Fixes
+
+* using the right version ([ef74108](https://github.com/LucasCarioca/workflows/commit/ef74108dd55056b5d109c5e67b070e784a7b5fa4))
+
 ## [0.3.1](https://github.com/LucasCarioca/workflows/compare/v0.3.0...v0.3.1) (2022-05-10)
 
 
