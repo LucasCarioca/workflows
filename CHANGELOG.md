@@ -1,3 +1,10 @@
+## [0.4.2](https://github.com/LucasCarioca/workflows/compare/v0.4.1...v0.4.2) (2022-05-10)
+
+
+### Bug Fixes
+
+* fixing lint action ([5adb678](https://github.com/LucasCarioca/workflows/commit/5adb6787d6c819f3c154a75b3b80127da032ea72))
+
 ## [0.4.1](https://github.com/LucasCarioca/workflows/compare/v0.4.0...v0.4.1) (2022-05-10)
 
 
