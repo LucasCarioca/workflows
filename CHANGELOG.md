@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/LucasCarioca/workflows/compare/v0.3.0...v0.3.1) (2022-05-10)
+
+
+### Bug Fixes
+
+* adding go version input ([b62aab2](https://github.com/LucasCarioca/workflows/commit/b62aab2a6180a249d6a3c44cc648c47e9d632551))
+
 # [0.3.0](https://github.com/LucasCarioca/workflows/compare/v0.2.9...v0.3.0) (2021-11-10)
 
 
