@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/LucasCarioca/workflows/compare/v0.5.1...v0.6.0) (2022-05-15)
+
+
+### Features
+
+* adding optional steps for go workflow ([0cba8e3](https://github.com/LucasCarioca/workflows/commit/0cba8e3908e2291469f1aa83c283c7942bdef325))
+
 ## [0.5.1](https://github.com/LucasCarioca/workflows/compare/v0.5.0...v0.5.1) (2022-05-15)
 
 
