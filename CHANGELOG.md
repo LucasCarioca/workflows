@@ -1,3 +1,10 @@
+# [0.8.0](https://github.com/LucasCarioca/workflows/compare/v0.7.0...v0.8.0) (2022-05-15)
+
+
+### Features
+
+* adding build option ([0f1340f](https://github.com/LucasCarioca/workflows/commit/0f1340fbcce9701412d7f1622d736d6b3ca6a080))
+
 # [0.7.0](https://github.com/LucasCarioca/workflows/compare/v0.6.0...v0.7.0) (2022-05-15)
 
 
