@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/LucasCarioca/workflows/compare/v0.4.2...v0.5.0) (2022-05-15)
+
+
+### Features
+
+* adding do workflow ([f176b23](https://github.com/LucasCarioca/workflows/commit/f176b239ee47983670a96aa45a2e3bc0cb38566f))
+
 ## [0.4.2](https://github.com/LucasCarioca/workflows/compare/v0.4.1...v0.4.2) (2022-05-10)
 
 
