@@ -1,3 +1,10 @@
+# [0.7.0](https://github.com/LucasCarioca/workflows/compare/v0.6.0...v0.7.0) (2022-05-15)
+
+
+### Features
+
+* adding generic k8s build and deploy workflow ([ce4d308](https://github.com/LucasCarioca/workflows/commit/ce4d308d9592f7c99b22a48ae23945e49c1a01a8))
+
 # [0.6.0](https://github.com/LucasCarioca/workflows/compare/v0.5.1...v0.6.0) (2022-05-15)
 
 
