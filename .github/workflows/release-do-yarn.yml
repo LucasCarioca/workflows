@@ -36,10 +36,6 @@ jobs:
       - run: mv do.env .env
       - run: yarn install
       - run: yarn build
-      - name: Create release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn release
       - name: Get Version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@master
