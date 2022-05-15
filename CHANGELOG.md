@@ -1,3 +1,10 @@
+## [0.5.1](https://github.com/LucasCarioca/workflows/compare/v0.5.0...v0.5.1) (2022-05-15)
+
+
+### Bug Fixes
+
+* update do deployment ([dee6f0f](https://github.com/LucasCarioca/workflows/commit/dee6f0f2787096145e65121952720fbc84ce4709))
+
 # [0.5.0](https://github.com/LucasCarioca/workflows/compare/v0.4.2...v0.5.0) (2022-05-15)
 
 
