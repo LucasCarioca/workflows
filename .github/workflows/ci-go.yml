@@ -6,6 +6,15 @@ on:
         required: false
         type: number
         default: 1.16
+      lint:
+        type: boolean
+        default: true
+      vet:
+        type: boolean
+        default: true
+      coveralls:
+        type: boolean
+        default: true
 jobs:
   ci:
     runs-on: ubuntu-latest
@@ -17,8 +26,10 @@ jobs:
         with:
           go-version: ${{ inputs.go-version }}
       - name: Go vet
+        if: ${{ inputs.vet }}
         run: make vet
       - name: Go lint
+        if: ${{ inputs.lint }}
         uses: golangci/golangci-lint-action@v3
         with:
           version: v1.45
@@ -31,6 +42,7 @@ jobs:
       - name: Convert coverage.out to coverage.lcov
         uses: jandelgado/gcov2lcov-action@v1.0.6
       - name: Coveralls
+        if: ${{ inputs.coveralls }}
         uses: coverallsapp/github-action@v1.1.2
         with:
           github-token: ${{ secrets.github_token }}
