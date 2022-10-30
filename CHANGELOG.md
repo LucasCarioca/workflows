@@ -1,3 +1,10 @@
+## [0.9.2](https://github.com/LucasCarioca/workflows/compare/v0.9.1...v0.9.2) (2022-10-30)
+
+
+### Bug Fixes
+
+* update nodejs version ([10b1fdf](https://github.com/LucasCarioca/workflows/commit/10b1fdf0b33728fd3d6748363c9a1579a4d603b2))
+
 ## [0.9.1](https://github.com/LucasCarioca/workflows/compare/v0.9.0...v0.9.1) (2022-10-30)
 
 
