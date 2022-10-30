@@ -1,3 +1,10 @@
+## [0.9.3](https://github.com/LucasCarioca/workflows/compare/v0.9.2...v0.9.3) (2022-10-30)
+
+
+### Bug Fixes
+
+* update k8s deploy job to only deploy given version ([5cd1fd7](https://github.com/LucasCarioca/workflows/commit/5cd1fd77e6adfbf38ab0649ac2827aefd85c4e5b))
+
 ## [0.9.2](https://github.com/LucasCarioca/workflows/compare/v0.9.1...v0.9.2) (2022-10-30)
 
 
