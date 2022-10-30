@@ -1,3 +1,27 @@
+# [0.3.0](https://github.com/LucasCarioca/workflows/compare/v0.2.8...v0.3.0) (2022-10-30)
+
+
+### Bug Fixes
+
+* adding go version input ([4e9cd31](https://github.com/LucasCarioca/workflows/commit/4e9cd31dc5c2e88162c8c0c2f2c0226eca726d3c))
+* fixing lint action ([f51750f](https://github.com/LucasCarioca/workflows/commit/f51750ffe0b4cc6786791fcb70640a953038f8b8))
+* start using semrel ([d310b74](https://github.com/LucasCarioca/workflows/commit/d310b74344955fd91961aed1690bffb91f5d97ad))
+* start using semrel ([9f08918](https://github.com/LucasCarioca/workflows/commit/9f08918f75851745569f06820e3227357cf0a699))
+* update do deployment ([f31e0df](https://github.com/LucasCarioca/workflows/commit/f31e0df1e2a85d791761ee69819eeca8a433912b))
+* use latest version of action ([b4b103e](https://github.com/LucasCarioca/workflows/commit/b4b103e44599d84a6bc35d8d46dd503f4f93229e))
+* using the right version ([20a8fca](https://github.com/LucasCarioca/workflows/commit/20a8fca1e560f1dc87792857da7740cc249a6cc1))
+
+
+### Features
+
+* add new release workflow ([e068419](https://github.com/LucasCarioca/workflows/commit/e0684195676d1d176bd2cf82b50af83ed2d58f3c))
+* adding build option ([8f1449f](https://github.com/LucasCarioca/workflows/commit/8f1449f6c184be4dea6f1c22d30a25b2d18f4ccb))
+* adding do workflow ([7c6c12f](https://github.com/LucasCarioca/workflows/commit/7c6c12f16501e263bb1307889833a7962eb844d8))
+* adding generic k8s build and deploy workflow ([b1bbc7a](https://github.com/LucasCarioca/workflows/commit/b1bbc7adf58d5f514a12ee4e7ff1d3f1b0135624))
+* adding new k8s workflows ([aabe504](https://github.com/LucasCarioca/workflows/commit/aabe504ed2b46861b8f75a8dc3aaaaef8539a492))
+* adding optional steps for go workflow ([ccd06f8](https://github.com/LucasCarioca/workflows/commit/ccd06f8bc532d7ae8c735105139fb08185d4f932))
+* use new action for lint ([d27e4fe](https://github.com/LucasCarioca/workflows/commit/d27e4fe9bdc7451565c958e71f1580db8b184c22))
+
 # [0.3.0](https://github.com/LucasCarioca/workflows/compare/v0.2.8...v0.3.0) (2022-05-15)
 
 
