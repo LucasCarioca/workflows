@@ -16,18 +16,24 @@ on:
         required: true
       password:
         required: true
+    outputs:
+      version:
+        value: ${{ jobs.release.outputs.version }}
 jobs:
  release:
     runs-on: ubuntu-latest
+    outputs:
+      output1: v${{ steps.package-version.outputs.current-version }}
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js 14.x
+      - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
-          node-version: 14.x
+          node-version: 16.x
       - run: mv ${{ inputs.env_file }} .env
       - run: yarn install
       - run: yarn build
+      - run: yarn release
       - name: Get Version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@master
