@@ -1,3 +1,10 @@
+## [0.9.5](https://github.com/LucasCarioca/workflows/compare/v0.9.4...v0.9.5) (2022-10-30)
+
+
+### Bug Fixes
+
+* use github token ([b8c1ece](https://github.com/LucasCarioca/workflows/commit/b8c1ece5d71deffe9521dcc09b5861ff2e81c103))
+
 ## [0.9.4](https://github.com/LucasCarioca/workflows/compare/v0.9.3...v0.9.4) (2022-10-30)
 
 
