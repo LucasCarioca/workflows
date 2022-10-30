@@ -1,6 +1,10 @@
 {
     "name": "wedding-registration-services",
+<<<<<<< HEAD
     "version": "0.8.1",
+=======
+    "version": "0.3.0",
+>>>>>>> a318af3968c7b38f2cede9e122907c09c95b4482
     "private": true,
     "scripts": {
         "release": "semantic-release"
