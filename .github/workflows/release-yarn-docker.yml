@@ -12,8 +12,6 @@ on:
         required: true
         type: string
     secrets:
-      gitub_token:
-        required: true
       username:
         required: true
       password:
@@ -37,7 +35,7 @@ jobs:
       - run: yarn build
       - run: yarn release
         env:
-          GITHUB_TOKEN: ${{ secrets.github_token }}
+          GITHUB_TOKEN: ${{ secrets.password }}
         
       - name: Get Version
         id: package-version
