@@ -23,7 +23,7 @@ jobs:
  release:
     runs-on: ubuntu-latest
     outputs:
-      output1: v${{ steps.package-version.outputs.current-version }}
+      version: v${{ steps.package-version.outputs.current-version }}
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 16.x
