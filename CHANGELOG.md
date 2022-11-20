@@ -1,3 +1,10 @@
+## [0.9.7](https://github.com/LucasCarioca/workflows/compare/v0.9.6...v0.9.7) (2022-10-31)
+
+
+### Bug Fixes
+
+* broken version output ([e80f3d5](https://github.com/LucasCarioca/workflows/commit/e80f3d51a2ddb6be42db794048aaf0cd5cc8842e))
+
 ## [0.9.6](https://github.com/LucasCarioca/workflows/compare/v0.9.5...v0.9.6) (2022-10-30)
 
 
