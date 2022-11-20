@@ -1,3 +1,10 @@
+## [0.9.8](https://github.com/LucasCarioca/workflows/compare/v0.9.7...v0.9.8) (2022-11-20)
+
+
+### Bug Fixes
+
+* run release before version ([8d046d2](https://github.com/LucasCarioca/workflows/commit/8d046d2edd662f4adda5c72c875c637b4ce35cf0))
+
 ## [0.9.7](https://github.com/LucasCarioca/workflows/compare/v0.9.6...v0.9.7) (2022-10-31)
 
 
