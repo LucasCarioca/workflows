@@ -33,9 +33,9 @@ jobs:
       - run: mv ${{ inputs.env_file }} .env
       - run: yarn install
       - run: yarn release
-      - run: yarn build
         env:
           GITHUB_TOKEN: ${{ secrets.password }}
+      - run: yarn build
         
       - name: Get Version
         id: package-version
