@@ -1,3 +1,10 @@
+## [0.9.9](https://github.com/LucasCarioca/workflows/compare/v0.9.8...v0.9.9) (2022-11-20)
+
+
+### Bug Fixes
+
+* env for release ([14313e9](https://github.com/LucasCarioca/workflows/commit/14313e974a98f4ff7b2573a456643a3b884d22b8))
+
 ## [0.9.8](https://github.com/LucasCarioca/workflows/compare/v0.9.7...v0.9.8) (2022-11-20)
 
 
