@@ -32,8 +32,8 @@ jobs:
           node-version: 16.x
       - run: mv ${{ inputs.env_file }} .env
       - run: yarn install
-      - run: yarn build
       - run: yarn release
+      - run: yarn build
         env:
           GITHUB_TOKEN: ${{ secrets.password }}
         
