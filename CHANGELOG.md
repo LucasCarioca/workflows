@@ -1,3 +1,11 @@
+## [0.10.1](https://github.com/LucasCarioca/workflows/compare/v0.10.0...v0.10.1) (2022-12-18)
+
+
+### Bug Fixes
+
+* remove env file ([89daeb6](https://github.com/LucasCarioca/workflows/commit/89daeb6576b126b0940c2905cf32d2922e7266a8))
+* remove env file ([d543270](https://github.com/LucasCarioca/workflows/commit/d543270cb0fec104c261e00782afadbccc8ef707))
+
 # [0.10.0](https://github.com/LucasCarioca/workflows/compare/v0.9.9...v0.10.0) (2022-12-18)
 
 
