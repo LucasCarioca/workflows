@@ -1,3 +1,10 @@
+# [0.10.0](https://github.com/LucasCarioca/workflows/compare/v0.9.9...v0.10.0) (2022-12-18)
+
+
+### Features
+
+* new release-docker workflow ([b4ef66e](https://github.com/LucasCarioca/workflows/commit/b4ef66e34fcc32012208057c4ab7b63d2f8961cb))
+
 ## [0.9.9](https://github.com/LucasCarioca/workflows/compare/v0.9.8...v0.9.9) (2022-11-20)
 
 
