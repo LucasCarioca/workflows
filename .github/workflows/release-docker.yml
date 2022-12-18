@@ -8,9 +8,6 @@ on:
       image_name: 
         required: true
         type: string
-      env_file:
-        required: true
-        type: string
     secrets:
       username:
         required: true
@@ -30,7 +27,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16.x
-      - run: mv ${{ inputs.env_file }} .env
       - run: yarn install
       - run: yarn release
         env:
