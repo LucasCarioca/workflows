@@ -1,0 +1,68 @@
+name: Release Homelab
+on:
+  workflow_call:
+    inputs:
+      registry:
+        required: true
+        type: string
+      image_name: 
+        required: true
+        type: string
+      env_file:
+        required: true
+        type: string
+    secrets:
+      username:
+        required: true
+      password:
+        required: true
+    outputs:
+      version:
+        value: ${{ jobs.release.outputs.version }}
+jobs:
+ release:
+    runs-on: ubuntu-latest
+    outputs:
+      version: v${{ steps.package-version.outputs.current-version }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - run: mv ${{ inputs.env_file }} .env
+      - run: yarn install
+      - run: yarn release
+        env:
+          GITHUB_TOKEN: ${{ secrets.password }}
+      - name: Get Version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@master
+      - name: Log in to the Container registry
+        uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
+        with:
+          registry: ${{ inputs.registry }}
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ inputs.registry }}/${{ inputs.image_name }}
+          tags: |
+            type=sha
+            type=raw,v${{ steps.package-version.outputs.current-version}}
+          flavor: |
+            latest=true
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          platforms: linux/amd64,linux/arm64,linux/arm/v7
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
