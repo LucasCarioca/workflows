@@ -1,3 +1,10 @@
+## [0.10.2](https://github.com/LucasCarioca/workflows/compare/v0.10.1...v0.10.2) (2022-12-21)
+
+
+### Bug Fixes
+
+* make build and platforms optional ([df4d381](https://github.com/LucasCarioca/workflows/commit/df4d381d3290f048704139b40438eb824d750ba7))
+
 ## [0.10.1](https://github.com/LucasCarioca/workflows/compare/v0.10.0...v0.10.1) (2022-12-18)
 
 
