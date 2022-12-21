@@ -11,6 +11,14 @@ on:
       env_file:
         required: true
         type: string
+      build:
+        required: false
+        type: boolean
+        default: false
+      platforms:
+        required: false
+        type: string
+        default: linux/amd64,linux/arm64,linux/arm/v7
     secrets:
       username:
         required: true
@@ -36,6 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.password }}
       - run: yarn build
+        if: ${{ inputs.build }}
         
       - name: Get Version
         id: package-version
@@ -67,6 +76,6 @@ jobs:
         with:
           context: .
           push: true
-          platforms: linux/amd64,linux/arm64,linux/arm/v7
+          platforms: ${{ inputs.platforms }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
