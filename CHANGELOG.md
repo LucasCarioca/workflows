@@ -1,3 +1,10 @@
+## [0.10.3](https://github.com/LucasCarioca/workflows/compare/v0.10.2...v0.10.3) (2022-12-21)
+
+
+### Bug Fixes
+
+* make env optional ([15644bb](https://github.com/LucasCarioca/workflows/commit/15644bb55ad9fccf677979b0637163d758f794cb))
+
 ## [0.10.2](https://github.com/LucasCarioca/workflows/compare/v0.10.1...v0.10.2) (2022-12-21)
 
 
