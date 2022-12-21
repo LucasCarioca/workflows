@@ -8,8 +8,12 @@ on:
       image_name: 
         required: true
         type: string
+      move_env: 
+        required: false
+        type: boolean
+        default: false
       env_file:
-        required: true
+        required: false
         type: string
       build:
         required: false
@@ -39,6 +43,7 @@ jobs:
         with:
           node-version: 16.x
       - run: mv ${{ inputs.env_file }} .env
+        if: ${{ inputs.move_env }}
       - run: yarn install
       - run: yarn release
         env:
