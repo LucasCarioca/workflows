@@ -80,7 +80,7 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
       - name: Install Kubectl
-        uses: azure/setup-kubectl@v1
+        uses: azure/setup-kubectl@v3
       - name: Setup Context
         uses: azure/k8s-set-context@v1
         with:
